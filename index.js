@@ -2,8 +2,8 @@ var vi = document.createElement("video");
 vi.src = "hutao.mp4";
 vi.id = "_vi";
 vi.autoplay = true;
-vi.width = screen.width;
-vi.height = screen.height;
+vi.width = screen.width * 2;
+vi.height = screen.height * 2;
 
 document.getElementById("video").appendChild(vi);
 document.getElementById("video").style.display = "flex";
